@@ -96,7 +96,7 @@ body{
     border: 2px solid #ffffff;
 }
 .btn {
-    background: #FFC608;
+    background: #F51E52;
     border-radius: 30px;
     width: 171px;
     font-size: 18px;
@@ -109,7 +109,7 @@ body{
 .btn:hover{
     background-color: transparent;
     border-color:#ffffff;
-    border: 2px solid;
+    border: 0px solid;
 }
 header .btn:hover{
     background-color: transparent;
