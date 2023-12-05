@@ -41,10 +41,11 @@ body{
     font-family: 'NeurialGroteskRegular';
 }
 .home-page .banner-section-wrapper h1{
-    color: #ffffff;
+    color: #000000;
+    text-align: center;
 }
 .navbar-expand-md .navbar-nav .nav-link{
-    color: #FFFFFF;
+    color: #000000;
 }
 .orange-bg-color{
     background-color: #FF725E;
@@ -83,7 +84,7 @@ body{
     margin: 0px 5px;
 }
 .social-icons ul li a {
-    color: #FFFFFF;
+    color: #000000;
     font-size: 20px;
 }
 .btn.phnobtn {
@@ -1096,6 +1097,7 @@ header .navbar-nav.me-auto{
 }
 .navbar-expand-md .navbar-nav li:hover .submenu-wrapper{
 	display: flex;
+    display: block;
 }
 .navbar-expand-md .navbar-nav li ul li{
 	list-style: none;
