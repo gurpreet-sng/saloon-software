@@ -1097,7 +1097,7 @@ header .navbar-nav.me-auto{
 }
 .navbar-expand-md .navbar-nav li:hover .submenu-wrapper{
 	display: flex;
-    display: block;
+    display: none;
 }
 .navbar-expand-md .navbar-nav li ul li{
 	list-style: none;
