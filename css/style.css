@@ -791,13 +791,7 @@ h2.section-title{
     padding-bottom: 100px;
     position: relative;
 }
-.qrcode-section-wrapper.uniqueqrportal .qrcode:after{
-    content:"";
-    width: 364px;
-    height: 500px;
-    background-image: url("../images/plain.png");
-    position: absolute;
-}
+
 .qrcode-section-wrapper.uniqueqrportal.marketing-banner-image .qrcode-content p{
     margin-top: 60px;
     font-size: 30px;
