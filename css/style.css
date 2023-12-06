@@ -734,8 +734,8 @@ h2.section-title{
     padding: 0px;
 }
 .yellow-bg-color{
-    background-color: #FFE96E;
     padding: 60px 0px;
+    background: linear-gradient(90deg, #B3A9FC 0%, #A3FA87 52.6%, #89FFBF 100%);
 }
 .light-yellow-color{
     background-color: #FFFBE7;
@@ -745,7 +745,7 @@ h2.section-title{
 }
 .video-section-wrapper.video-marketing-page{
     padding-top: 150px;
-    margin-top: -55px;
+    margin-top: 0px;
     padding-bottom: 120px;
 }
 .yellow-layer{
