@@ -728,13 +728,8 @@ h2.section-title{
 .blackmenu .social-icons ul li a{
     color: #000000;
 }
-.blackmenu .navbar-brand img{
-    opacity: 0;
-}
-.blackmenu .navbar-brand{
-    background-image: url("../images/logoblack.png");
-    background-repeat: no-repeat;
-}
+
+
 .video-section-wrapper.video-yellow-bg{
     padding: 0px;
 }
