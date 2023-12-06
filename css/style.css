@@ -303,7 +303,7 @@ header .btn:hover{
     line-height: 58px;
     color: #000000;
     text-align: center;
-    margin: 40px 0px 0px;
+    margin: 60px 0px 0px;
 }
 .unique-qr-portal h2{
     font-size: 60px;
@@ -1111,7 +1111,6 @@ header .navbar-nav.me-auto{
 }
 .navbar-expand-md .navbar-nav li:hover .submenu-wrapper{
 	display: flex;
-    display: none;
 }
 .navbar-expand-md .navbar-nav li ul li{
 	list-style: none;
@@ -1199,6 +1198,72 @@ header .navbar-nav.me-auto{
 }
 .padding-top-bottom100{
     padding:100px 0px;
+}
+.heart-image-top{
+    position: relative;
+}
+.heart-image-top span{
+    position: absolute;
+    width: 90px;
+    display: inline-block;
+    right: -30px;
+    top: -50px;
+}
+.heart-image-bottom{
+    position: relative;
+}
+.heart-image-bottom span{
+    position: absolute;
+    width: 60px;
+    display: inline-block;
+    bottom: -25px;
+    right: -10px;
+}
+.our-highlights-wrapper .owl-carousel .owl-stage-outer{
+    padding: 100px 0px;
+}
+.our-highlights-wrapper .owl-carousel .owl-stage-outer .owl-stage .owl-item:nth-of-type(odd){
+    margin-top: -40px;
+}
+.our-highlights-section-wrapper{
+    padding: 100px 0px 20px;
+}
+.unique-qr-portal-section{
+    position: relative;
+    padding-bottom: 150px;
+}
+.unique-qr-portal-section .owl-dot span{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #c4c4c4;
+    margin: 0px 10px;
+    border-radius: 50px;
+}
+.unique-qr-portal-section .owl-dot.active span{
+    background-color: #edba37;
+}
+.unique-qr-portal-section .owl-dots{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    width: 30px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: -50px;
+}
+.unique-qr-portal-section .owl-nav{
+    display: none;
+}
+.qr-portal-slider-wrapper h4{
+    font-size: 40px;
+    font-family: 'NeurialGroteskMedium';
+    margin-bottom: 30px;
+}
+.qr-portal-slider-wrapper p{
+    font-size: 24px;
 }
 @media only screen and (min-width:1920px){
 
@@ -1311,9 +1376,6 @@ header .navbar-nav.me-auto{
     .recommended-box h6{
         padding: 20px;
         font-size: 20px;
-    }
-    .getbest-section-title{
-        padding: 100px 0px 0px;
     }
     .unique-qr-portal.retain-more-clients-section{
         padding: 160px 0px 100px;
@@ -1511,7 +1573,8 @@ header .navbar-nav.me-auto{
         margin-top: -30px;
     }
     .navbar-toggler{
-        border: 1px solid #ffffff;
+        border: 1px solid #000000;
+        background-color: #F51E52;
     }
     .blackmenu .navbar-toggler{
         border: 1px solid #000000;
@@ -1565,7 +1628,7 @@ header .navbar-nav.me-auto{
         margin-right: 0px;
     }
     .qrcode-section-wrapper {
-        padding-bottom: 100px;
+        padding-bottom: 0px;
     }
     .qrcode-section-wrapper.uniqueqrportal {
         margin-top: -270px;
@@ -1589,9 +1652,37 @@ header .navbar-nav.me-auto{
     .feature-box h3{
         font-size: 35px;
     }
+    .our-highlights-wrapper .owl-carousel .owl-stage-outer {
+        padding: 100px 0px 40px;
+    }
+    .margin-bottom-60{
+        margin-bottom: 30px;
+    }
+    .qr-portal-slider-wrapper h4{
+        font-size: 28px;
+    }
+    .unique-qr-portal-section .owl-dots{
+        position: static;
+    }
+    .unique-qr-portal-section .owl-dots{
+        position: static;
+        display: block;
+        width: auto;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .getbest-section-wrapper{
+        padding: 60px 0px 10px;
+    }
 }
 @media only screen and (max-width:575px){
 
+    .unique-qr-portal-section{
+        padding-bottom: 80px;
+    }
+    .our-highlights-section-wrapper{
+        padding: 60px 0px 20px;
+    }
     .banner-section-wrapper.sellgift-banner .margin-top-150{
         margin-top: 30px;
     }
@@ -1664,7 +1755,6 @@ header .navbar-nav.me-auto{
     .getbest-section-title{
         background-image: none;
         margin-top: 0px;
-        background-color: #0655FF;
     }
     .unique-qr-portal{
         padding: 90px 0px 80px;
@@ -1706,7 +1796,7 @@ header .navbar-nav.me-auto{
         background-size: 100%;
     }
     .banner-section-wrapper{
-        padding: 150px 0px 100px;
+        padding: 150px 0px 30px;
     }
     .button-group.banner-button{
         margin-top: 40px;
@@ -1726,11 +1816,9 @@ header .navbar-nav.me-auto{
         font-size: 23px;
         line-height: 42px;
     }
-    .getbest-section-title {
-        padding: 80px 0px 0px;
-    }
+    
     .unique-qr-portal.retain-more-clients-section {
-        padding: 160px 0px 80px;
+        padding: 80px 0px 40px;
     }
     .automate-management-section{
         padding: 40px 0px;
