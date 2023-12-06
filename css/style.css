@@ -87,34 +87,37 @@ body{
     color: #000000;
     font-size: 20px;
 }
-.btn.phnobtn {
+.btn.phnobtn{
     border: none;
-    background: #ffffff;
-    color: #000000;
+    background: #000000;
+    color: #ffffff;
     font-weight: 700;
     margin-right: 10px;
-    border: 2px solid #ffffff;
+    border: 0px solid #ffffff;
 }
-.btn {
+.btn.phnobtn:hover{
+    background: #F51E52;
+}
+.btn{
     background: #F51E52;
     border-radius: 30px;
     width: 171px;
     font-size: 18px;
     padding: 15px 10px;
     border: 0px;
-    color: #000000;
+    color: #ffffff;
     font-weight: 500;
     box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.10);
 }
 .btn:hover{
-    background-color: transparent;
-    border-color:#ffffff;
+    background-color: #000000;
+    border-color:#000000;
     border: 0px solid;
 }
 header .btn:hover{
-    background-color: transparent;
+    background-color: #000000;
     border-color:#ffffff !important;
-    border: 2px solid;
+    border: 0px solid;
     color: #ffffff !important;
 }
 .navbar-collapse{
@@ -137,9 +140,9 @@ header .btn:hover{
 }
 .banner-section-wrapper{
     background-image: url("../images/bannerbg.png");
-    padding: 250px 0px 250px;
+    padding: 250px 0px 200px;
     background-repeat: no-repeat;
-    background-position: center bottom !important;
+    background-position:top center !important;
     background-size: cover !important;
 }
 .yellow-bgg .banner-section-wrapper{
@@ -264,6 +267,9 @@ header .btn:hover{
     background-color: #ffffff;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
 }
+.btn.grey-button{
+    color: #000000;
+}
 .button-group.banner-button .btn{
     font-size: 22px;
     margin-right: 40px;
@@ -280,14 +286,16 @@ header .btn:hover{
 }
 .btn.grey-button:hover{
     color: #ffffff;
-    background-color: #0b5ed7;
+    background-color: #F51E52;
+}
+.btnimg img{
+    width: auto;
 }
 .qrcode-section-wrapper .qrcode{
     text-align: center;
 }
 .qrcode-section-wrapper{
-    margin-top: -250px;
-    padding-bottom: 150px;
+    margin-top: -100px;
 }
 .qrcode-content p{
     font-weight: 400;
@@ -299,8 +307,9 @@ header .btn:hover{
 }
 .unique-qr-portal h2{
     font-size: 60px;
-    font-family: 'NeurialGroteskLight';
+    font-family: 'NeurialGroteskBold';
     text-align: center;
+    color: #000000;
 }
 .unique-qr-portal{
     padding: 100px 0px 300px;
@@ -315,16 +324,17 @@ header .btn:hover{
     padding: 40px 30px;
     position: relative;
     margin-bottom: 40px;
-    height: 330px;
+    height: 472px;
     display: flex;
     align-items: center;
 }
 .thumb-style h5{
     font-weight: 500;
     font-size: 25px;
-    font-family: 'NeurialGroteskMedium';
+    font-family: 'NeurialGroteskBold';
     margin-bottom: 20px;
     text-transform: capitalize;
+    color: #000000;
 }
 .thumb-style p{
     font-size: 18px;
@@ -343,17 +353,12 @@ header .btn:hover{
 .unique-qr-portal .thumbnail-row{
     margin-top: 70px;
 }
-.getbest-section-title{
-    background-image: url(../images/layerbg.png);
-    background-position: top left;
-    padding: 200px 0px 0px;
-    margin-top: -200px;
-}
 .getbest-section-title h2{
-    font-family: 'NeurialGroteskLight';
+    font-family: 'NeurialGroteskBold';
     font-size: 50px;
     line-height: 70px;
-    color:#ffffff;
+    color:#000000;
+    font-weight: 700;
 }
 .recommended-box {
     border-radius: 10px;
@@ -375,6 +380,8 @@ header .btn:hover{
 .getbest-section-wrapper{
     position: relative;
     z-index: 2;
+    background-image: url("../images/getbest.png");
+    padding: 100px 0px 60px;
 }
 .thumb-stack .thumbicon{
     margin: 0px 0px 30px;
@@ -384,10 +391,10 @@ header .btn:hover{
     display: inline-flex;
 }
 .unique-qr-portal.retain-more-clients-section{
-    padding: 260px 0px 100px;
-    margin-top: -200px;
+    padding: 100px 0px 0px;
     position: relative;
     z-index: 1;
+    background: #ffffff;
 }
 .getbest-thumbnail h6{
     font-size: 30px;
@@ -398,8 +405,7 @@ header .btn:hover{
     margin-bottom: 80px;
 }
 .getbest-thumbnail-wrapper{
-    background-color: #0655FF;
-    padding: 60px 0px;
+    padding: 40px 0px;
 }
 .thumb-stack{
     flex-direction: column;
@@ -416,11 +422,11 @@ header .btn:hover{
     margin-bottom: 20px;
 }
 .automate-management-section{
-    padding: 100px 0px;
-    background: linear-gradient(180deg, rgba(229, 238, 255, 0.00) 10.94%, #E5EEFF 100%);
+    padding: 60px 0px;
+    background: linear-gradient(180deg, rgba(255, 238, 238, 0.00) 10.94%, #FEE 100%);
 }
 h2.section-title{
-    font-family: 'NeurialGroteskLight';
+    font-family: 'NeurialGroteskBold';
     font-size: 70px;
     line-height: 77px;
     text-transform: capitalize;
@@ -429,12 +435,12 @@ h2.section-title{
     background-color: transparent;
     border: 0px;
     text-align: center;
-    padding: 0px 30px;
+    padding: 0px 15px;
     overflow: visible;
     margin-bottom: 100px;
     position: relative;
 }
-.automate-management-section .recommended-box:before {
+.automate-management-section .recommended-box:before{
     content: "";
     position: absolute;
     width: 100%;
@@ -446,6 +452,8 @@ h2.section-title{
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom;
+
+    display: none;
 }
 
 .recommended-box.billingbg{
@@ -485,13 +493,13 @@ h2.section-title{
 
 
 .automate-management-section .recommended-box .automate-box{
-    background-color: #F8F8F8;
+    background-color: #E6FAFF;
     border-radius: 45px;
     height: auto;
     position: relative;
     padding: 40px 20px;
     box-shadow: 0px 0px 10px 0px #dddddd;
-    height: 550px;
+    height: 430px;
 }
 .automate-icon{
     margin-bottom: 10px;
@@ -532,7 +540,7 @@ h2.section-title{
 }
 .client-logos-wrapper .owl-nav button{
     margin: 0px 5px;
-    background-color: #BFF4B8 !important;
+    background-color: #ffb3c5 !important;
     width: 35px;
     height: 35px;
     border-radius: 100%;
@@ -550,7 +558,7 @@ h2.section-title{
 .video-section-wrapper a{
     font-size: 18px;
     line-height: 22px;
-    color: #006A43;
+    color: #407BFF;
     display: block;
     margin-top: 50px;
 }
@@ -559,7 +567,7 @@ h2.section-title{
     line-height: 22px;
     position: relative;
     top: 6px;
-    color: #7233FF;
+    color: #407BFF;
 }
 .owl-two.owl-carousel .owl-nav{
     display: none;
@@ -568,12 +576,12 @@ h2.section-title{
     width: 16px;
     height: 16px;
     background: #FFFFFF;
-    border: 1px solid #EFC352;
+    border: 1px solid #407BFF;
     border-radius: 100px;
     margin: 0px 4px;
 }
 .owl-two.owl-carousel button.owl-dot.active{
-    background: #F4AE00;
+    background: #407BFF;
 }
 .owl-two.owl-carousel .owl-dots{
     margin-top: 30px;
@@ -581,8 +589,9 @@ h2.section-title{
 }
 
 .footer-green{
-    background-color: #0655FF;
+    background-image: url(../images/footertopbg.jpg);
     padding: 0px 20px;
+    background-size: cover;
 }
 .easylogo img{
     width: auto;
@@ -592,22 +601,25 @@ h2.section-title{
     text-align: center;
 }
 .video-section-wrapper{
-    padding-top: 100px;
+    padding-top: 60px;
     padding-bottom: 30px;
 }
 .readyto h2{
     font-size: 80px;
     font-family: 'NeurialGroteskBold';
     line-height: 100px;
-    color: #ffffff;
+    color: #000000;
 }
 .readyto p{
     font-size: 28px;
     font-family: NeurialGroteskRegular;
     line-height: 52px;
-    color: rgb(255, 255, 255);
+    color: #000000;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+.readyto .button-group .btn.grey-button.btn-primary{
+    margin-right: 20px;
 }
 .footer-green .btn.phnobtn{
     width: 350px;
@@ -675,6 +687,7 @@ h2.section-title{
     height: 68px;
     border-radius: 10px;
     width: 100%;
+    background-color: #000000;
 }
 .header-wrapper.inner-page-header{
     position: static;
@@ -1163,7 +1176,10 @@ header .navbar-nav.me-auto{
     background: linear-gradient(180deg, rgba(229, 238, 255, 0.00) 10.94%, rgba(255, 114, 94, 0.20) 100%);
 }
 .automate-management-section{
-    background: ;
+    
+}
+.margin-top-60{
+    margin-top: 60px;
 }
 .nobg{
     background: transparent !important;
@@ -1178,7 +1194,11 @@ header .navbar-nav.me-auto{
     letter-spacing: 1px;
 }
 .footer-subscribe .btn:hover{
-    color: #000000;
+    color: #ffffff;
+    background: #F51E52;
+}
+.padding-top-bottom100{
+    padding:100px 0px;
 }
 @media only screen and (min-width:1920px){
 
@@ -1204,7 +1224,7 @@ header .navbar-nav.me-auto{
         height: 430px;
     }
     .automate-management-section .recommended-box .automate-box{
-        height: 650px;
+        height: 440px;
     }
     .readyto h2 br{
         display: none;
