@@ -156,6 +156,14 @@ header .btn:hover{
     background-image: url("../images/bannerbg.png");
     background-repeat: no-repeat;
 }
+.appointment-management-page{
+    background-image: url("../images/appointment-management-page.jpg");
+    background-repeat: no-repeat;
+}
+.gift-card-page{
+    background-image: url("../images/gift-cards.png");
+    background-repeat: no-repeat;
+}
 .yellow-bgg .banner-section-wrapper{
     background-image: url(../images/bannerbg-yellow.png) !important;
     margin: 0px !important;
@@ -165,12 +173,16 @@ header .btn:hover{
     background-image: url(../images/property-page-bgg.png) !important;
     background-repeat: no-repeat;
 }
+.employment-page{
+    background-image: url(../images/emp-pg.png) !important;
+    background-position: top left;
+    background-repeat: no-repeat;
+}
 .property-management-page .banner-section-wrapper{
     margin: 0px !important;
     border-radius: 0px !important;
 }
 .appointment-management-page .banner-section-wrapper{
-    background-image: url(../images/ap-management.png) !important;
     margin: 0px !important;
     border-radius: 0px !important;
 }
