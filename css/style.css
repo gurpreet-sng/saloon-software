@@ -1280,9 +1280,7 @@ header .navbar-nav.me-auto{
 .padding-bottom-100{
     padding-bottom: 100px;
 }
-.feature-section-wrapper.some-features{
-    
-}
+
 @media only screen and (min-width:1920px){
 
 	.container-fluid{
@@ -1291,6 +1289,9 @@ header .navbar-nav.me-auto{
 }
 @media only screen and (max-width:1440px){
 
+    .banner-section-wrapper .margin-top-70 {
+        margin-top: 0px;
+    }
     .banner-section-wrapper p{
         font-size: 26px;
     }
@@ -1561,6 +1562,9 @@ header .navbar-nav.me-auto{
 }
 @media only screen and (max-width:767px){
 
+    .feature-section-wrapper.some-features.padding-bottom-100{
+        padding-bottom: 0px; 
+    }
     .layer-text .section-title.margin-bottom-100{
         margin-bottom: 60px;
     }
