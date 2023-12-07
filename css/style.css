@@ -34,15 +34,22 @@
          url('../fonts/NeurialGroteskLight.ttf') format('truetype'),
          url('../fonts/NeurialGroteskLight.svg#NeurialGroteskLight') format('svg');
 }
-
 body{
     margin: 0px;
     padding: 0px;
     font-family: 'NeurialGroteskRegular';
+    color: #000000;
+}
+.btn.big-btn.square-btn{
+    color: #ffffff;
 }
 .home-page .banner-section-wrapper h1{
     color: #000000;
     text-align: center;
+}
+.btn.square-btn{
+    background: #211C1D;
+    border-radius: 10px;
 }
 .navbar-expand-md .navbar-nav .nav-link{
     color: #000000;
@@ -139,19 +146,25 @@ header .btn:hover{
     margin-top: 150px;
 }
 .banner-section-wrapper{
-    background-image: url("../images/bannerbg.png");
-    padding: 250px 0px 200px;
+    padding: 250px 0px 100px;
     background-repeat: no-repeat;
     background-position:top center !important;
     background-size: cover !important;
+}
+.home-page{
+    background-image: url("../images/bannerbg.png");
+    background-repeat: no-repeat;
 }
 .yellow-bgg .banner-section-wrapper{
     background-image: url(../images/bannerbg-yellow.png) !important;
     margin: 0px !important;
     border-radius: 0px !important;
 }
-.property-management-page .banner-section-wrapper{
+.property-management-page{
     background-image: url(../images/property-page-bgg.png) !important;
+    background-repeat: no-repeat;
+}
+.property-management-page .banner-section-wrapper{
     margin: 0px !important;
     border-radius: 0px !important;
 }
@@ -251,6 +264,7 @@ header .btn:hover{
     font-weight: 700;
     font-size: 80px;
     font-family: 'NeurialGroteskBold';
+    color: #000000;
 }
 .banner-section-wrapper img{
     width: 100%;
@@ -293,9 +307,12 @@ header .btn:hover{
 }
 .qrcode-section-wrapper .qrcode{
     text-align: center;
+    position: relative;
 }
-.qrcode-section-wrapper{
-    margin-top: -100px;
+.qrcode-section-wrapper .qrcode .gift-image{
+    position: absolute;
+    right: -50px;
+    bottom: -50px;
 }
 .qrcode-content p{
     font-weight: 400;
@@ -430,6 +447,7 @@ h2.section-title{
     font-size: 70px;
     line-height: 77px;
     text-transform: capitalize;
+    color: #000000;
 }
 .automate-management-section .recommended-box{
     background-color: transparent;
@@ -735,10 +753,10 @@ h2.section-title{
 }
 .yellow-bg-color{
     padding: 60px 0px;
-    background: linear-gradient(90deg, #B3A9FC 0%, #A3FA87 52.6%, #89FFBF 100%);
+    background-image: url(../images/ateasybg.png);
 }
 .light-yellow-color{
-    background-color: #FFFBE7;
+    background: linear-gradient(180deg, rgba(255, 238, 238, 0.00) 10.94%, #FEE 100%);
 }
 .light-blue-color{
     background-color: #EBEEFF;
@@ -746,7 +764,7 @@ h2.section-title{
 .video-section-wrapper.video-marketing-page{
     padding-top: 150px;
     margin-top: 0px;
-    padding-bottom: 120px;
+    padding-bottom: 0px;
 }
 .yellow-layer{
     text-align: center;
@@ -905,8 +923,12 @@ h2.section-title{
 .banner-section-wrapper.rounded-corner-banners.properties-management-banner{
     background: #E6F4FF;
 }
+.green-thumb-section .thumb-style{
+    background: #E6FAFF;
+    box-shadow: 0px 0px 10px #dddddd;
+}
 .some-features .thumb-style{
-    height: 660px;
+    height: 500px;
 }
 .some-features .thumb-style h5{
     line-height: 30px;
@@ -1254,6 +1276,12 @@ header .navbar-nav.me-auto{
 .qr-portal-slider-wrapper p{
     font-size: 24px;
 }
+.padding-bottom-100{
+    padding-bottom: 100px;
+}
+.feature-section-wrapper.some-features{
+    
+}
 @media only screen and (min-width:1920px){
 
 	.container-fluid{
@@ -1309,7 +1337,7 @@ header .navbar-nav.me-auto{
         margin-top: -5px;
     }
     .some-features .thumb-style {
-        height: 760px;
+        height: 600px;
     }
     .banner-section-wrapper .margin-top-150{
         margin-top: 80px;
