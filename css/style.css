@@ -55,7 +55,8 @@ body{
     color: #000000;
 }
 .orange-bg-color{
-    background-color: #FF725E;
+    background-image: url(../images/whyeasy-bg.png);
+    background-size: 100%;
 }
 .navbar-nav.me-auto{
     margin-left: auto!important;
@@ -1071,7 +1072,7 @@ h2.section-title{
     color: #000000;
 }
 .some-features.key-features .thumb-style{
-    height: 500px;
+    height: 470px;
 }
 .light-green-content.light-pink-content h3{
     font-size: 60px;
@@ -1218,7 +1219,6 @@ header .navbar-nav.me-auto{
     background: transparent !important;
 }
 .quality-box h6{
-    color: #ffffff;
     text-align: center;
     font-size: 25px;
     font-weight: 700;
