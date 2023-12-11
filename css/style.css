@@ -178,6 +178,11 @@ header .btn:hover{
     background-position: top left;
     background-repeat: no-repeat;
 }
+.billing-payments-page{
+    background-image: url(../images/billing-payments-bgg.png) !important;
+    background-position: top left;
+    background-repeat: no-repeat;
+}
 .property-management-page .banner-section-wrapper{
     margin: 0px !important;
     border-radius: 0px !important;
@@ -1924,11 +1929,4 @@ header .navbar-nav.me-auto{
     .layer-text .section-title.margin-bottom-100{
         margin-bottom: 40px;
     }
-}
-
-.sec-slid-bg .align-items-center .col-sm-8{
-    padding: 0px !important;
-}
-.sec-slid-bg .align-items-center .col-sm-4{
-    padding: 0px !important;
 }
