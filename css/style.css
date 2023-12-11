@@ -189,6 +189,26 @@ header .btn:hover{
     background-position: top left;
     background-repeat: no-repeat;
 }
+.spa-page{
+    background-image: url(../images/spabg.png) !important;
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+.tattoo-page{
+    background-image: url(../images/tattobg.png) !important;
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+.nail-page{
+    background-image: url(../images/nailbg.png) !important;
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+.carspa-page{
+    background-image: url(../images/carspabg.png) !important;
+    background-position: top left;
+    background-repeat: no-repeat;
+}
 .property-management-page .banner-section-wrapper{
     margin: 0px !important;
     border-radius: 0px !important;
