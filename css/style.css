@@ -183,6 +183,11 @@ header .btn:hover{
     background-position: top left;
     background-repeat: no-repeat;
 }
+.inventory-management-page{
+    background-image: url(../images/inventory-management.png) !important;
+    background-position: top left;
+    background-repeat: no-repeat;
+}
 .property-management-page .banner-section-wrapper{
     margin: 0px !important;
     border-radius: 0px !important;
