@@ -40,6 +40,26 @@ body{
     font-family: 'NeurialGroteskRegular';
     color: #000000;
 }
+
+.modal-body iframe{
+    width: 100%;
+    height: 450px;
+}
+.gift-cards-slider .owl-three.owl-carousel button {
+    width: 16px;
+    height: 16px;
+    background: #FFFFFF;
+    border: 1px solid #F51E52;
+    border-radius: 100px;
+    margin: 0px 4px;
+}
+.gift-cards-slider .owl-three.owl-carousel button.owl-dot.active {
+    background: #F51E52;
+}
+.gift-cards-slider .owl-nav{
+    display: none;
+}
+
 .btn.big-btn.square-btn{
     color: #ffffff;
 }
@@ -585,7 +605,7 @@ h2.section-title{
     margin-bottom: 100px;
 }
 .trusted-by{
-    padding: 150px 0px 230px;
+    padding: 150px 0px 150px;
 }
 .logos img{
     width: 100%;
@@ -657,7 +677,7 @@ h2.section-title{
 }
 .easylogo img{
     width: auto;
-    margin-top: -130px;
+    margin-top: -65px;
 }
 .easylogo{
     text-align: center;
@@ -1172,17 +1192,14 @@ header .navbar-nav.me-auto{
 	width: 50%;
     margin-bottom: 30px;
     float: left;
+    min-height: 150px;
 }
-.navbar-expand-md .navbar-nav li ul {
+.navbar-expand-md .navbar-nav li ul{
     padding-left: 0px;
 }
 .nav-link-peragraph{
     margin-bottom: 40px;
 }
-
-/*.navbar-expand-md .navbar-nav li:hover ul{
-	display: flex;
-}*/
 .linkicon{
 	margin-right: 10px;
 }
@@ -1389,6 +1406,9 @@ header .navbar-nav.me-auto{
     .banner-section-wrapper.sellgift-banner .margin-top-150{
         margin-top: 80px;
     }
+    .navbar-expand-md .navbar-nav li .submenu-wrapper{
+        width: 1000px
+    }
 }
 @media only screen and (max-width:1199px){
 
@@ -1406,7 +1426,7 @@ header .navbar-nav.me-auto{
         width: 100%;
     }
     .navbar-expand-md .navbar-nav li .submenu-wrapper{
-        width: 880px;
+        width: 820px;
     }
     .btn{
         width: 150px;
@@ -1849,8 +1869,9 @@ header .navbar-nav.me-auto{
         line-height: 50px;
     }
     h2.section-title{
-        font-size: 35px;
-        line-height: 50px;
+        font-size: 30px;
+        line-height: 42px;
+        padding: 0px 15px;
     }
     .navbar-brand img{
         width: 100%;
