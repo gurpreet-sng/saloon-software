@@ -40,7 +40,11 @@ body{
     font-family: 'NeurialGroteskRegular';
     color: #000000;
 }
-
+.highlights-video iframe{
+    width: 100%;
+    height: 335px;
+    border-radius: 25px;
+}
 .modal-body iframe{
     width: 100%;
     height: 450px;
