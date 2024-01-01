@@ -172,7 +172,7 @@ header .btn:hover{
     margin-top: 150px;
 }
 .banner-section-wrapper{
-    padding: 250px 0px 100px;
+    padding: 250px 0px 20px;
     background-repeat: no-repeat;
     background-position:top center !important;
     background-size: cover !important;
@@ -180,6 +180,7 @@ header .btn:hover{
 .home-page{
     background-image: url("../images/bannerbg.png");
     background-repeat: no-repeat;
+    background-size: 100%;
 }
 .appointment-management-page{
     background-image: url("../images/appointment-management-page.jpg");
@@ -457,7 +458,7 @@ header .btn:hover{
 .recommended-box h6 {
     background-color: #ffffff;
     margin: 0px;
-    padding: 25px;
+    padding: 20px;
     color: #0F2137;
     font-size: 22px;
     font-weight: 600;
@@ -507,7 +508,7 @@ header .btn:hover{
     margin-bottom: 20px;
 }
 .automate-management-section{
-    padding: 60px 0px;
+    padding: 0px 0px 60px;
     background: linear-gradient(180deg, rgba(255, 238, 238, 0.00) 10.94%, #FEE 100%);
 }
 h2.section-title{
@@ -609,7 +610,7 @@ h2.section-title{
     margin-bottom: 100px;
 }
 .trusted-by{
-    padding: 150px 0px 150px;
+    padding: 100px 0px 100px;
 }
 .logos img{
     width: 100%;
@@ -885,8 +886,9 @@ h2.section-title{
 .qrcode-section-wrapper.uniqueqrportal.marketing-banner-image .qrcode img{
     max-width: 100%;
 }
-.feature-image {
+.feature-image{
     text-align: center;
+    padding: 0px 20px;
 }
 .feature-box-row{
     align-items: center;
@@ -1250,9 +1252,6 @@ header .navbar-nav.me-auto{
 .light-magenta-color{
     background: linear-gradient(180deg, rgba(229, 238, 255, 0.00) 10.94%, rgba(255, 114, 94, 0.20) 100%);
 }
-.automate-management-section{
-    
-}
 .margin-top-60{
     margin-top: 60px;
 }
@@ -1305,7 +1304,7 @@ header .navbar-nav.me-auto{
 }
 .unique-qr-portal-section{
     position: relative;
-    padding-bottom: 150px;
+    padding-bottom: 60px;
 }
 .unique-qr-portal-section .owl-dot span{
     display: inline-block;
@@ -1372,6 +1371,25 @@ header .navbar-nav.me-auto{
 .thumbnail-box-style.white-color-thumbnail .thumb-stack{
     box-shadow: none;
 }
+
+
+
+.thumbnail-box-style.grey-color-thumbnail .col-lg-4{
+    background-color: #F5F5F5;
+}
+.thumbnail-box-style.grey-color-thumbnail h5{
+    font-weight: 500;
+    font-size: 25px;
+    font-family: 'NeurialGroteskBold';
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    color: #000000;
+}
+.thumbnail-box-style.grey-color-thumbnail .thumb-stack{
+    box-shadow: none;
+}
+
+
 .automate-management-section.thumbnail-box-style .recommended-box{
     margin-bottom: 0px;
 }
@@ -2043,9 +2061,4 @@ header .navbar-nav.me-auto{
         display: inline-block;
         margin-top: 20px;
     }
-}
-
-
-.owl-carousel .owl-stage {
-    transition-timing-function: linear !important;
 }
