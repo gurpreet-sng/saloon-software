@@ -178,7 +178,7 @@ header .btn:hover{
     background-size: cover !important;
 }
 .home-page{
-    background-image: url("../images/bannerbg.png");
+    /*background-image: url("../images/bannerbg.png");*/
     background-repeat: no-repeat;
     background-size: 100%;
 }
