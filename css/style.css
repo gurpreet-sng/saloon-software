@@ -373,6 +373,7 @@ header .btn:hover{
 }
 .btnimg img{
     width: auto;
+    height: 90px;
 }
 .qrcode-section-wrapper .qrcode{
     text-align: center;
