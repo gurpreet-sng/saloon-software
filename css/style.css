@@ -178,7 +178,7 @@ header .btn:hover{
     background-size: cover !important;
 }
 .home-page{
-    /*background-image: url("../images/bannerbg.png");*/
+    background-image: url("../images/homebg.png");
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -1388,12 +1388,14 @@ header .navbar-nav.me-auto{
 .thumbnail-box-style.grey-color-thumbnail .thumb-stack{
     box-shadow: none;
 }
-
-
 .automate-management-section.thumbnail-box-style .recommended-box{
     margin-bottom: 0px;
 }
-
+.owl-one.slider_active .owl-stage{
+    display: flex;
+    align-items: center;
+    transition-timing-function: linear !important;
+}
 
 @media only screen and (min-width:1920px){
 
