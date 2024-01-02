@@ -1305,7 +1305,7 @@ header .navbar-nav.me-auto{
 }
 .unique-qr-portal-section{
     position: relative;
-    padding-bottom: 60px;
+    padding-bottom: 100px;
 }
 .unique-qr-portal-section .owl-dot span{
     display: inline-block;
@@ -1430,6 +1430,19 @@ header .navbar-nav.me-auto{
 }
 .our-highlights-wrapper .owl-dots{
     display: none;
+}
+.swiper{
+    width: 100%;
+    height: 380px;
+}
+.swiper-pagination{
+    left: 0px !important;
+}
+.qr-portal-slider-wrapper .title-and-text{
+    padding-left: 40px;
+}
+.swiper-pagination-bullet.swiper-pagination-bullet-active{
+    background-color: #edba37;
 }
 
 @media only screen and (min-width:1920px){
