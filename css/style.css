@@ -1305,7 +1305,7 @@ header .navbar-nav.me-auto{
 }
 .unique-qr-portal-section{
     position: relative;
-    padding-bottom: 100px;
+    padding-bottom: 30px;
 }
 .unique-qr-portal-section .owl-dot span{
     display: inline-block;
@@ -1433,7 +1433,7 @@ header .navbar-nav.me-auto{
 }
 .swiper{
     width: 100%;
-    height: 380px;
+    height: 450px;
 }
 .swiper-pagination{
     left: 0px !important;
