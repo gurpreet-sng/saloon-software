@@ -45,6 +45,10 @@ body{
     height: 335px;
     border-radius: 25px;
 }
+.gift-cards-slider .owl-carousel .owl-item img{
+    width: auto !important;
+    max-width: 100% !important;
+}
 .modal-body iframe{
     width: 100%;
     height: 450px;
