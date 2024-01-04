@@ -309,7 +309,7 @@
             </div>
         </div>
         <div class="client-logos-wrapper">
-            <div class="owl-one owl-carousel owl-theme">
+            <div class="owl-one slider_active owl-carousel owl-theme">
                 <div class="item"><img src="images/kymm.png"></div>
                 <div class="item"><img src="images/cir.png"></div>
                 <div class="item"><img src="images/hellogor.png"></div>
@@ -340,11 +340,16 @@
     <script src="js/include-html.min.js"></script>
 
     <script>
-        $('.owl-one').owlCarousel({
+       $('.owl-one.slider_active').owlCarousel({
             stagePadding: 50,
+            smartSpeed:3500,
+            dots: false,
             loop: true,
             margin: 10,
-            nav: true,
+            nav: false,
+            autoplay: true,
+            autoplayTimeout:3500,
+            autoplayHoverPause: true,
             responsive: {
                 0: {
                     items: 1
@@ -353,7 +358,7 @@
                     items: 3
                 },
                 1000: {
-                    items: 5
+                    items: 7
                 }
             }
         });
