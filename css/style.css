@@ -40,6 +40,13 @@ body{
     font-family: 'NeurialGroteskRegular';
     color: #000000;
 }
+.gift-cards-slider .owl-carousel .owl-item .item{
+    text-align: center;
+}
+.thumbicon img{
+    max-width: 100%;
+    width: auto;
+}
 .highlights-video iframe{
     width: 100%;
     height: 335px;
@@ -48,6 +55,7 @@ body{
 .gift-cards-slider .owl-carousel .owl-item img{
     width: auto !important;
     max-width: 100% !important;
+    margin: auto;
 }
 .modal-body iframe{
     width: 100%;
