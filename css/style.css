@@ -2017,6 +2017,9 @@ header .navbar-nav.me-auto{
 }
 @media only screen and (max-width:575px){
 
+    .feature-box-row {
+        margin-bottom: 30px;
+    }
     .unique-qr-portal .thumbnail-row {
         margin-top: 40px;
     }
