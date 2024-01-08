@@ -1629,7 +1629,7 @@ header .navbar-nav.me-auto{
         font-size: 20px;
     }
     .unique-qr-portal.retain-more-clients-section{
-        padding: 160px 0px 100px;
+        padding: 100px 0px 0px;
     }
     h2.section-title br{
         display: none;
@@ -1641,7 +1641,7 @@ header .navbar-nav.me-auto{
         height: 700px;
     }
     .trusted-by {
-        padding: 100px 0px 200px;
+        padding: 100px 0px 150px;
     }
     .readyto h2 {
         font-size: 50px;
@@ -1656,7 +1656,8 @@ header .navbar-nav.me-auto{
         margin-top: -85px;
     }
     h2.section-title{
-        font-size: 60px;
+        font-size: 50px;
+        line-height: 65px;
     }
     .qrcode-section-wrapper.uniqueqrportal{
         margin-top: -430px;
@@ -1673,6 +1674,13 @@ header .navbar-nav.me-auto{
     .some-features .thumbnail-box-style .col-lg-6{
         width: 43%;
     }
+    .qr-portal-slider-wrapper h4{
+        font-size: 30px;
+    }
+    .qr-portal-slider-wrapper p {
+        font-size: 22px;
+    }
+    
 }
 @media only screen and (max-width:991px){
 
@@ -1725,7 +1733,7 @@ header .navbar-nav.me-auto{
         width: 200px;
     }
     .button-group.banner-button{
-        margin-bottom: 60px;
+        margin-bottom: 0px;
     }
     .qrcode-content p{
         font-size: 30px;
@@ -1796,8 +1804,23 @@ header .navbar-nav.me-auto{
     }
     .thumbnail-box-style .col-lg-4{
         width: 25%;
-        margin: 0px 15px 80px;
+        margin: 0px 15px 50px;
         padding: 40px 10px;
+    }
+    br{
+        display: none;
+    }
+    .banner-section-wrapper h1{
+        font-size: 50px;
+    }
+    .automate-management-section .recommended-box h6{
+        font-size: 25px;
+    }
+    .automate-management-section .recommended-box{
+        padding: 0px 0px;
+    }
+    .automate-icon img{
+        width: 135px;
     }
 }
 @media only screen and (max-width:767px){
@@ -1950,8 +1973,24 @@ header .navbar-nav.me-auto{
     .feature-section-wrapper.some-features.padding-bottom-40{
         padding-bottom: 0px;
     }
+    .navbar-expand-md .navbar-nav li .submenu-wrapper{
+        display: flex;
+    }
+    .navbar-expand-md .navbar-nav li ul li{
+        min-height: auto;
+    }
+    .navbar-expand-md .navbar-nav li .submenu-wrapper{
+        padding: 40px 20px 0px;
+    }
+    .tabimage{
+        display: none;
+    }
 }
 @media only screen and (max-width:575px){
+
+    .navbar-expand-md .navbar-nav li ul li{
+        min-height: auto;
+    }
     br{
         display: none;
     }
