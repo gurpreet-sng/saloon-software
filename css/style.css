@@ -2039,7 +2039,7 @@ header .navbar-nav.me-auto{
         width: 95%;
     }
     .unique-qr-portal-section{
-        padding-bottom: 80px;
+        padding-bottom: 30px;
     }
     .our-highlights-section-wrapper{
         padding: 60px 0px 20px;
@@ -2272,5 +2272,8 @@ header .navbar-nav.me-auto{
     .home-page .banner-section-wrapper h1 span{
         display: block;
         margin-top: 20px;
+    }
+    .swiper {
+        height: 490px;
     }
 }
