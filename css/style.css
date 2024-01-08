@@ -1825,6 +1825,9 @@ header .navbar-nav.me-auto{
 }
 @media only screen and (max-width:767px){
 
+    .banner-section-wrapper h1{
+        word-wrap: break-word;
+    }
     .qrcode-content p {
         font-size: 24px;
         line-height: 44px;
