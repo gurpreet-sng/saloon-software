@@ -40,6 +40,11 @@ body{
     font-family: 'NeurialGroteskRegular';
     color: #000000;
 }
+.owl-one.owl-carousel .owl-item{
+    border-radius: 20px;
+    border: 1px solid #dddddd;
+    overflow: hidden;
+}
 .thumbnail-box-style .recommended-box {
     background: transparent;
     border: 0px;
