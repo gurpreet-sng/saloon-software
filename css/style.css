@@ -1825,10 +1825,18 @@ header .navbar-nav.me-auto{
 }
 @media only screen and (max-width:767px){
 
+    .qrcode-content p {
+        font-size: 24px;
+        line-height: 44px;
+    }
+    .qrcode-content p{
+        margin-top: 30px;
+    }
+    .our-highlights-section-wrapper{
+        padding: 60px 0px 20px;
+    }
     .thumbnail-box-style .col-lg-4{
         width: 44%;
-        margin: 0px 15px 80px;
-        padding: 40px 10px;
     }
     .feature-section-wrapper.some-features.padding-bottom-100{
         padding-bottom: 0px; 
@@ -1903,7 +1911,7 @@ header .navbar-nav.me-auto{
         line-height: 70px;
     }
     .readyto {
-        padding: 30px 10px 100px;
+        padding: 30px 10px 60px;
     }
     .main-footer .social-icons ul {
         margin-left: 0px;
@@ -1984,6 +1992,27 @@ header .navbar-nav.me-auto{
     }
     .tabimage{
         display: none;
+    }
+    .margin-bottom-100 {
+        margin-bottom: 60px;
+    }
+    .swiper {
+        height: 550px;
+    }
+    .unique-qr-portal-section{
+        padding-bottom: 60px;
+    }
+    .unique-qr-portal.retain-more-clients-section{
+        padding: 60px 0px 0px;
+    }
+    .trusted-by {
+        padding: 60px 0px 130px;
+    }
+    .main-footer {
+        padding: 60px 20px 40px;
+    }
+    .qr-portal-slider-wrapper .title-and-text {
+        padding-left: 0px;
     }
 }
 @media only screen and (max-width:575px){
