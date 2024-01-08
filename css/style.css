@@ -2270,7 +2270,7 @@ header .navbar-nav.me-auto{
         margin-bottom: 40px;
     }
     .home-page .banner-section-wrapper h1 span{
-        display: inline-block;
+        display: block;
         margin-top: 20px;
     }
 }
