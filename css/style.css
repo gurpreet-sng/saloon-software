@@ -2020,10 +2020,13 @@ header .navbar-nav.me-auto{
 }
 @media only screen and (max-width:575px){
 
+    .layer-text .spaceleft-right.padding-top-bottom-60 {
+        padding-bottom: 20px;
+    }
     .feature-box-row {
         margin-bottom: 30px;
     }
-    .unique-qr-portal .thumbnail-row {
+    .unique-qr-portal .thumbnail-row{
         margin-top: 40px;
     }
     .navbar-expand-md .navbar-nav li ul li{
@@ -2117,7 +2120,8 @@ header .navbar-nav.me-auto{
     }
     .video-section-wrapper.video-marketing-page{
         margin-top: 0px;
-        padding-top: 20px;
+        padding-top: 50px;
+        padding-bottom: 60px !important;
     }
     .getbest-section-title h2 {
         font-size: 30px;
