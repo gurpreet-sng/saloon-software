@@ -152,15 +152,39 @@
                         </h4>
                         <a href="#">Read More Success Stories <i class="bi bi-arrow-right-short"></i></a>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-lg-6 col-md-12">
                         <div class="video-crausel">
                             <div class="owl-two owl-carousel owl-theme">
-                                <div class="item"><img src="images/video.png"></div>
-                                <div class="item"><img src="images/video.png"></div>
-                                <div class="item"><img src="images/video.png"></div>
-                                <div class="item"><img src="images/video.png"></div>
-                                <div class="item"><img src="images/video.png"></div>
-                                <div class="item"><img src="images/video.png"></div>
+                                <div class="item">
+                                    <div class="tesperson" data-bs-target="#tesone" data-bs-toggle="modal">
+                                        <img src="images/video.png">
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="tesperson" data-bs-target="#tesone" data-bs-toggle="modal">
+                                        <img src="images/video.png">
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="tesperson" data-bs-target="#tesone" data-bs-toggle="modal">
+                                        <img src="images/video.png">
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="tesperson" data-bs-target="#tesone" data-bs-toggle="modal">
+                                        <img src="images/video.png">
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="tesperson" data-bs-target="#tesone" data-bs-toggle="modal">
+                                        <img src="images/video.png">
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="tesperson" data-bs-target="#tesone" data-bs-toggle="modal">
+                                        <img src="images/video.png">
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -270,6 +294,10 @@
                 }
             }
         })
+
+        $("#tesone").on('hidden.bs.modal', function (e){
+            $("#tesone iframe").attr("src", $("#tesone iframe").attr("src"));
+        });
 
     </script>
 </body>
