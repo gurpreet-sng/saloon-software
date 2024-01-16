@@ -45,6 +45,11 @@ body{
     border: 1px solid #dddddd;
     overflow: hidden;
 }
+.navbar-toggler-icon{
+    background-image: url(../images/toggler-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .thumbnail-box-style .recommended-box {
     background: transparent;
     border: 0px;
