@@ -1882,6 +1882,7 @@ header .navbar-nav.me-auto{
     .navbar-toggler{
         border: 1px solid #000000;
         background-color: #F51E52;
+        background-color: #000000;
     }
     .blackmenu .navbar-toggler{
         border: 1px solid #000000;
